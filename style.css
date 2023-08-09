@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    border: none;
+}
+body{
+    /* display: flex;
+    justify-self: center;
+    align-items: center; */
+    min-height: 100vh;
+    background-color: rgb(33, 94, 94);
+    overflow: hidden;
+}
+.container{
+    margin: 70px;
+    width: 800px;
+    height: 600px;
+    background-color: rgb(4, 33, 33);
+    margin-left: auto;
+    margin-right: auto;
+}
+.header{
+    color: rgb(255, 253, 255);
+    height: 10%;
+    background-color: rgb(47, 78, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    width: 45px;
+}
+
+.members-count{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+.messages{
+    margin-left: 20px;
+    color: white;
+    overflow-y:auto; 
+    /* position:relative; */
+    width: 750px;
+    height: 450px;
+
+
+}
+.message {
+    padding: 5px 0;
+    color: rgb(255, 255, 255);
+    flex-shrink: 0;
+    
+}
+
+.message .member {
+    display: inline-block;
+    
+}
+/* .footer{
+    position: fixed;
+    bottom: 75px;
+    width: 800px;
+    background-color: aliceblue;
+    height: 30px;
+    
+} */
+.footer form {
+    display: flex;
+    /* position: fixed;
+    bottom: 75px;
+    width: 800px;
+    background-color: aliceblue;
+    height: px; */
+
+}
+
+.message-form .message-form__input {
+    flex: 1;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    font-size: 16px;
+    
+}
+
+.btn {
+    width: 100px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: blue;
+    transition: .2s ease;
+}
